@@ -1,0 +1,226 @@
+body{
+    /* background-color: red; */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fira Sans', sans-serif;
+}
+a{
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600px !important;
+}
+.top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+}
+
+.logo{
+    height: 48px;
+    width: 56px;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.main_menu li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.main_menu li a{
+    text-decoration: none;
+    color: #e45826;
+    font-weight: bold;
+    margin: 0px 3px 0px 3px;
+    padding: 4px 5px 4px 5px;
+}
+.main_menu li a:hover{
+    background-color: #e45826;
+    color: white !important;
+    cursor: pointer;
+}
+.SecDiv{
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/first.jpg');
+    background-repeat: no-repeat;
+   background-size: 450px 600px;
+   background-position: top -160px right -4px;
+   
+}
+.ColourDiv{
+    padding:0px 30px 0px 30px;
+    background-color: #4a3933;
+    width: 68%;
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+}
+.ColourDiv h1, .ColourDiv h2{
+    color: #f0a500;
+}
+.ColourDiv p{
+    color: #ffffff;
+}
+.ColourDiv a{
+    color: #ffffff;
+    background-color: #e45826;
+    padding: 12px 6px;
+    text-decoration: none;
+}
+.main_body{
+    width: 100%;
+}
+.main_body > h1{
+    padding-left: 30px;
+    color: black;
+    font-weight: bold;
+}
+.main_body > p{
+    padding-left: 30px;
+    color: #444444;
+}
+.products{
+    width: 74%;
+    display: inline-block;
+}
+.mainImg{
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+    width:20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.mainImg img{
+    width: 80%;
+}
+.products > div{
+    color: #444444;
+    text-align: center;
+    width:29%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    background-color: #f8f5f1;
+    height: 500px;
+}
+.text p {
+    padding: 0px 5px;
+}
+.button{
+    padding: 10px 85px;
+    background-color: #e45826;
+    color:#fff;
+}
+.products div span:nth-child(1){
+    padding: 10px;
+}
+.prodHov{
+    border: 6px solid #e45826;
+}
+.popular{
+    color: #fff;
+    background-color: #e45826;
+    margin: 0px;
+    padding: 5px 0px;
+}
+/* Benefits */
+#benefits{
+    margin:30px 0px;
+    padding: 15px 30px;
+    background-color: #e6d5b8;
+}
+#benefits>div{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 15px;
+}
+#benefits>div p{
+    padding:15px;
+}
+#main_note{
+    padding-left: 30px;
+}
+#main_note > h1{
+    text-align: left;
+}
+#main_note > p{
+    text-align: left;
+    color: #444444;
+}
+#main_note > div{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 15px;
+}
+#main_note .box{
+    text-align: center;
+    margin: 0px 10px;
+    background-color: #f8f5f1;
+    box-shadow: 0 0 3px #ccc;
+}
+#main_note .box:hover{
+    background-color: #e45826;
+    color: #ffffff;
+}
+#main_note img{
+    margin:50px 0px 30px 0px;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#main_note div p{
+    padding:0px 10px;
+}
+.purchase{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #4a3933;
+    padding: 10px 40px 0px 40px;
+}
+.purchase h1{
+    color: #e6d5b8;
+}
+.purchase div{
+    padding-top: 30px;
+}
+.purchase > div > a{
+    color: #fff;
+    padding: 16px 23px;
+    text-align: center;
+    background-color: #e45826; 
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    background-color: #e6d5b8;
+    padding: 0px 160px;
+}
+.footer ul{
+    padding: 0px;
+    color: #e45826;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer a{
+    color: #e45826;
+    text-decoration: none;
+}
+.btm{
+    background-color: #e6d5b8;
+    color: #e45826;
+    width: 100%;
+    text-align: center;
+}
+.btm p{
+    margin: 0px;
+    padding: 0px 0px 40px 0px;
+}
